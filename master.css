@@ -1,0 +1,244 @@
+.container {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+body {
+    background-color: #141414;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+header .logo img {
+    width: 100px;
+    height: 100px;
+    background-color: #141414;
+    background: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    border-radius: 5px;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 20px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+nav ul li:last-child {
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* end header */
+
+/* start home */
+
+.image-home {
+    background-image: url('images/Untitled design.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.image-home h1 {
+    text-align: center;
+}
+
+.image-home h2 {
+    text-align: center;
+    margin-top: -60px;
+}
+
+/* sec-home */
+
+.sec-home {
+    background-image: url('images/Untitled design-2.png');
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sec-home h1 {
+    font-size: 100px;
+    color: gold;
+    margin: 40px 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sec-home h2 {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 3em;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+h2.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.sec-home h2:hover {
+    background-color: #141414;
+    color: gold;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.sec-home h3 {
+    font-size: 30px;
+    color: gold;
+    margin: 40px 13px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 200px;
+    background-color: #141414;
+    font-size: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.more-info-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-shrink: 1;
+}
+
+.more-info-parent .more-info .cart-no-1,
+.cart-no-2,
+.cart-no-3 {
+    display: flex;
+    flex-wrap: wrap;
+    color: gold;
+    flex-shrink: 2;
+    min-width: 100px;
+}
+
+.more-info-parent .more-info .cart-no-1 img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 2;
+}
+
+.more-info-parent .more-info .cart-no-2 img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 2;
+}
+
+.more-info-parent .more-info .cart-no-3 img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    flex-shrink: 2;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #f9e936;
+    /* Green color */
+    border-top: 2px solid #f9e936;
+    /* Green border */
+    padding: 20px;
+    margin-top: 62px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
